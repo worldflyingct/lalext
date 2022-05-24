@@ -6,8 +6,9 @@
 //
 // Author: Chef (191201771@qq.com)
 
-package main
+package rtmp2webrtc
 
+/*
 import (
 	"encoding/json"
 	"flag"
@@ -18,6 +19,7 @@ import (
 	"github.com/q191201771/naza/pkg/nazahttp"
 	"github.com/q191201771/naza/pkg/nazalog"
 )
+*/
 
 type TaskParam struct {
 	RtmpUrl            string `json:"rtmp_url"`
@@ -28,6 +30,7 @@ type TaskResponse struct {
 	SessionDescription string `json:"session_description"`
 }
 
+/*
 func main() {
 	_ = nazalog.Init(func(option *nazalog.Option) {
 		option.Level = nazalog.LevelTrace
@@ -95,3 +98,4 @@ func parseFlag() (int, int, string) {
 	flag.Parse()
 	return *httpPort, *webrtcPort, *hostIp
 }
+*/

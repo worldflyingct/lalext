@@ -6,7 +6,7 @@
 //
 // Author: Chef (191201771@qq.com)
 
-package main
+package rtmp2webrtc
 
 import (
 	"github.com/pion/rtp"
